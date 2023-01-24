@@ -1,0 +1,65 @@
+.input-container {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 150px;
+    min-height: 30px;
+    width: 300px;
+    height: 30px;
+    border: 3px solid dodgerblue;
+}
+
+button:hover {
+    transition: all .3s;
+    color: rgb(191, 215, 33);
+}
+
+.btn-send {
+    width: 100px;
+    background-color: dodgerblue;
+    border: none;
+}
+
+.btn-geo {
+    width: 90px;
+    background-color: dodgerblue;
+    border: none;
+}
+
+.messages-container {
+    margin: 0 auto;    
+    width: 494px;
+    height: 400px;
+    border: 3px solid dodgerblue;
+    overflow-y: scroll;
+}
+
+.message {
+    width: fit-content;
+    min-width: 20px;
+    max-width: 360px;
+    border: 3px solid cornflowerblue;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 3px 3px 7px 3px;
+    overflow-wrap: break-word;
+    text-align: left;
+    background-color: aliceblue;
+}
+
+.right-message {
+    inline-size: fit-content;
+    margin-left: auto;
+    border-color: deepskyblue;
+}
+
+.error-message {
+    background-color: orangered;
+    border-color: black;
+    color: white;
+}
+
